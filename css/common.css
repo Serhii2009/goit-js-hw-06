@@ -22,3 +22,42 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* ----- Task-1 ----- */
+
+a {
+  text-decoration: none;
+  color: #3e05f9;
+}
+
+#categories {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.item ul {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.item li {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* ----- Task-2 ----- */
